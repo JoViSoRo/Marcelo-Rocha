@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="./src/css/reset.css">
+  <link rel="stylesheet" href="./src/css/estilos.css">
+  <link rel="stylesheet" href="./src/css/rolagem.css">
+
+  <title>Cartão de Visita</title>
+</head>
+
+<body>
+  <div class="conteudo-total">
+    <main class="cartao">
+      <div class="minhas-informacoes">
+        <img src="./src/imagens/foto-perfil.jpg" alt="foto de perfil" />
+        <h1 class="nome">Marcelo Rocha</h1>
+        <h2 class="cargo">Corretor de Imóveis</h2>
+      </div>
+
+      <div class="conteudo">
+        <ul class="abas">
+          <li class="aba selecionado" id="sobre-mim">
+            <img src="./src/imagens/info.svg" />
+          </li>
+          <li class="aba" id="minhas-redes">
+            <img src="./src/imagens/smartphone.svg" />
+          </li>
+        </ul>
+
+        <div class="informacoes-abas">
+          <div class="informacao selecionado" id="informacao-sobre-mim">
+            <h3 class="sub-titulo">Sobre</h3>
+
+            <div class="descricao">
+              <p>
+                Corretor de imóveis a 5 anos. </p>
+              <p>Trabalho com toda a região de Maricá, ajudando você a realizar o sonho de ter uma casa própria.
+              </p>
+
+            </div>
+          </div>
+
+          <div class="informacao" id="informacao-minhas-redes">
+            <h3 class="sub-titulo">Entre em contato hoje mesmo.</h3>
+
+            <ul class="redes-sociais">
+              <li>
+                <a href="https://wa.me/5521967403189" target="_blank" class="portfolio">Whatsapp</a>
+              </li>
+              <li>
+                <a href="https://www.instagram.com/rocha_marcelorocha/" target="_blank" class="linkedin">Instagram</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </main>
+  </div>
+  <script src="./src/js/index.js"></script>
+</body>
+
+</html>

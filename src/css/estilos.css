@@ -117,6 +117,7 @@ body {
 }
 
 .informacoes-abas .sub-titulo {
+  margin-top: 50px;
   font-size: 15px;
   margin-bottom: 10px;
   text-align: center;
@@ -156,12 +157,14 @@ body {
   opacity: 0.8;
 }
 
-.redes-sociais .portfolio {
+.redes-sociais .whatsapp {
   background-color: #06c185;
   border-radius: 10px;
 }
-
-.redes-sociais .linkedin {
+#informacao-minhas-redes {
+}
+.redes-sociais .instagram {
+  display: none;
   background-color: #062a3c;
   border-radius: 10px;
 }

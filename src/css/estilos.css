@@ -16,7 +16,7 @@ body {
 
 .cartao {
   width: 370px;
-  height: 480px;
+  height: 505px;
   overflow: hidden;
   background: #1d88bd5b;
   border-radius: 16px;
@@ -111,16 +111,18 @@ body {
 }
 
 .informacoes-abas .descricao {
-  font-size: 20px;
+  margin-top: 5px;
+  font-size: 16px;
   max-height: 170px;
   overflow-y: auto;
   padding-right: 15px;
   display: grid;
+  gap: 10px;
 
 }
 
 .informacoes-abas .descricao span {
-  color: #a0b9cd;
+font-style: oblique;
 }
 
 .redes-sociais {

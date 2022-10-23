@@ -16,7 +16,6 @@ body {
 
 .cartao {
   width: 370px;
-  height: 505px;
   overflow: hidden;
   background: #1d88bd5b;
   border-radius: 16px;
@@ -56,6 +55,9 @@ body {
 .cartao .conteudo {
   margin-top: 15px;
   margin-bottom: 15px;
+  margin-left: 7px;
+  margin-right: 7px;
+  border-radius: 10px;
 }
 
 .cartao .abas {
@@ -69,6 +71,7 @@ body {
   padding: 10px 0;
   cursor: pointer;
   transition: background-color 0.2s ease-in-out;
+  border-radius: 10px 10px 0px 0px;
 }
 
 .cartao .abas img {
@@ -82,10 +85,19 @@ body {
 }
 
 .cartao .informacoes-abas {
-  background:linear-gradient(to bottom, #1d88bd5b, #1d88bd01, #1d88bd01, #1d88bd01, #1d88bd01, #00000001);
+  background: linear-gradient(
+    to bottom,
+    #1d88bd5b,
+    #1d88bd01,
+    #1d88bd01,
+    #1d88bd01,
+    #1d88bd01,
+    #00000001
+  );
   backdrop-filter: blur(10px);
   -webkit-backdrop-filter: blur(px);
   padding: 10px;
+  border-radius: 0px 0px 10px 10px;
 }
 
 .cartao .abas .aba:hover {
@@ -118,11 +130,7 @@ body {
   padding-right: 15px;
   display: grid;
   gap: 10px;
-
-}
-
-.informacoes-abas .descricao span {
-font-style: oblique;
+  border-radius: 10px;
 }
 
 .redes-sociais {
